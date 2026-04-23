@@ -1,5 +1,5 @@
 package com.ux.edu.conversational.ia;
-git
+
     public class Phi3Strategy implements InteligenciaArtificialStrategy {
         @Override
         public String generarRespuesta(String prompt) {
