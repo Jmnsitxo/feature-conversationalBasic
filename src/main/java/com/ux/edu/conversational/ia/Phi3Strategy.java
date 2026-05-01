@@ -15,7 +15,6 @@ public class Phi3Strategy implements InteligenciaArtificialStrategy {
     @Override
     public String generarRespuesta(String prompt) {
         try {
-            // Puerto 11434 según diagnóstico de netstat
             URL url = new URL("http://localhost:11434/api/generate");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 
@@ -23,7 +22,6 @@ public class Phi3Strategy implements InteligenciaArtificialStrategy {
             conn.setRequestProperty("Content-Type", "application/json");
             conn.setDoOutput(true);
 
-            // Limpieza del prompt para evitar Error 500 (JSON inválido)
             String promptLimpio = prompt.replace("\n", " ")
                     .replace("\r", " ")
                     .replace("\"", "\\\"");
@@ -39,7 +37,6 @@ public class Phi3Strategy implements InteligenciaArtificialStrategy {
                 os.write(input, 0, input.length);
             }
 
-            // Leer la respuesta de Ollama
             int status = conn.getResponseCode();
             InputStream is = (status >= 200 && status < 300) ? conn.getInputStream() : conn.getErrorStream();
 

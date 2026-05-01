@@ -3,7 +3,6 @@ package com.ux.edu.conversational.ia;
 public class AgenteConversacional {
     private InteligenciaArtificialStrategy modelo;
 
-    // El corazón del patrón: inyección de la estrategia
     public void setModelo(InteligenciaArtificialStrategy nuevoModelo) {
         this.modelo = nuevoModelo;
         System.out.println("Cambiando cerebro a: " + nuevoModelo.getNombreModelo());
