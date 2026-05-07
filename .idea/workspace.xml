@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3101ec-fcab-4ed8-b46e-17a8744378ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/GemmaStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/IAstrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Ollama/com/ux/edu/conversational/ia/AgenteConversacional.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ollama/com/ux/edu/conversational/ia/AgenteConversacional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ollama/com/ux/edu/conversational/ia/Llama3Strategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ollama/com/ux/edu/conversational/ia/Llama3Strategy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Ollama/com/ux/edu/conversational/ia/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ollama/com/ux/edu/conversational/ia/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ollama/com/ux/edu/conversational/ia/MistralStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ollama/com/ux/edu/conversational/ia/MistralStrategy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Ollama/com/ux/edu/conversational/ia/Phi3Strategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ollama/com/ux/edu/conversational/ia/Phi3Strategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/AgenteConversacional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/AgenteConversacional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/Llama3Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/Llama3Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/MistralStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/MistralStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/Phi3Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/Phi3Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/PromptConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ux/edu/conversational/ia/PromptConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +29,13 @@
     <persistenceIdMap>
       <entry key="_C:/Users/Canales/IdeaProjects/Ollama" value="3D6csAuf9Wptfs24VwMseEKi9tw" />
     </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

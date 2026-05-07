@@ -5,7 +5,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
-public class Phi3Strategy implements InteligenciaArtificialStrategy {
+public class Phi3Strategy implements IAStrategy {
 
     @Override
     public String getNombreModelo() {
@@ -13,7 +13,10 @@ public class Phi3Strategy implements InteligenciaArtificialStrategy {
     }
 
     @Override
-    public String generarRespuesta(String prompt) {
+    public String generarRespuesta(PromptConfig config) {
+        // Build the prompt from config
+        String prompt = "Rol: " + config.getRol() + "\nInstrucciones: " + config.getInstrucciones() + "\nEntrada: " + config.getEntrada();
+        
         try {
             URL url = new URL("http://localhost:11434/api/generate");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();

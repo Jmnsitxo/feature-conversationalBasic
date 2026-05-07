@@ -1,12 +1,12 @@
 package com.ux.edu.conversational.ia;
 
-public class MistralStrategy implements InteligenciaArtificialStrategy {
+public class MistralStrategy implements IAStrategy {
 
     @Override
 
-    public String generarRespuesta(String prompt) {
+    public String generarRespuesta(PromptConfig config) {
 
-        return "[Mistral-Ollama]: Respuesta rápida generada para: " + prompt;
+        return "[Mistral-Ollama]: Respuesta rápida generada para: " + config.getEntrada();
 
     }
 

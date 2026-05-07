@@ -23,4 +23,15 @@ public class PromptConfig {
 
     // Getters...
 
+    public String getRol() {
+        return rol;
+    }
+
+    public String getInstrucciones() {
+        return instrucciones;
+    }
+
+    public String getEntrada() {
+        return entrada;
+    }
 }
