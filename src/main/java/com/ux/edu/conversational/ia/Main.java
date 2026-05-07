@@ -1,25 +1,14 @@
 package com.ux.edu.conversational.ia;
 
 public class Main {
-
     public static void main(String[] args) {
+        AgenteConversacional agente = new AgenteConversacional();
 
-        AgenteConversacional miAgente = new AgenteConversacional();
+        // 2. Configurar el modelo (Estrategia)
+        // Usamos Phi-3 por ser el más ligero para 8GB de RAM
+        agente.setModelo(new Phi3Strategy());
 
-        // 1. Usamos Llama3 para una tarea compleja
-
-        miAgente.setModelo(new Llama3Strategy());
-
-        miAgente.interactuar("Explica la física cuántica.");
-
-        System.out.println("---");
-
-        // 2. Cambiamos a Mistral en tiempo de ejecución por su rapidez
-
-        miAgente.setModelo(new MistralStrategy());
-
-        miAgente.interactuar("Dime un chiste corto.");
-
+        System.out.println("Enviando pregunta...");
+        agente.interactuar("Hola, ¿quién eres?");
     }
-
 }
